@@ -1,0 +1,30 @@
+{
+  "name": "@redneckz/yandex-disk.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "build": "rimraf ./dist && tsc --noImplicitUseStrict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/redneckz/yandex-disk.js.git"
+  },
+  "keywords": [
+    "yandex",
+    "api",
+    "widget"
+  ],
+  "author": "redneckz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redneckz/yandex-disk.js/issues"
+  },
+  "homepage": "https://github.com/redneckz/yandex-disk.js#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
